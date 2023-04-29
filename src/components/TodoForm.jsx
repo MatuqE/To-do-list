@@ -19,7 +19,7 @@ export const TodoForm = ({addTodo}) => {
   return (
     <div style={{margin:20}}>
         <form onSubmit={handleSubmit}>
-            <input type="text" value={userInput} onChange={handleOnChange}/>
+            <input type="text" value={userInput} onChange={handleOnChange} placeholder='Hacer la tarea'/>
         </form>
     </div>
   )

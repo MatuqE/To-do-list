@@ -4,10 +4,20 @@
     border: 1px solid #73AD21;
     background-color: #32746A;
     padding: 10px;
+    margin-top:  50px;
 }
 
 .add-btn {
     float: right;
     background-color: red;
     color: #ffffff;
+}
+
+.h1{
+    text-align: center;
+    color: #32746A;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
 }

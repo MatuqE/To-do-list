@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 
 function App () {
+
      const [todos, setTodos] = useState(data)
      const uniqueId = uuidv4();
 
@@ -29,9 +30,13 @@ function App () {
 
     return (
         <>
+            <h1 className="h1">
+                Lista para hacer
+            </h1>
+
             <div className="conteiner">
                 <TodoForm addTodo={addTodo}/>
-              <TodosList todos= {todos} onComplete={onComplete} onDeleteItem={onDeleteItem}/>
+                <TodosList todos= {todos} onComplete={onComplete} onDeleteItem={onDeleteItem}/>
             </div>
         </>
     )
